@@ -6,7 +6,6 @@ on:
       - 'main'
 jobs:
   first-push:
-    if: github.run_number == 1
     runs-on: ubuntu-latest
     steps:
       - run: echo "first"
