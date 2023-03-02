@@ -1,8 +1,9 @@
 name: First Push
 on:
-  push:
+  create:
     branches:
       - 'master'
+      - 'main'
 jobs:
   first-push:
     if: github.run_number == 1
